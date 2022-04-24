@@ -10,3 +10,8 @@ npm install json-server --save-dev
 
 # Add small addition in script part of package.json file
 "server": "json-server -p3001 --watch db.json"
+
+# To launch application write these 2 commands in separate cmd-s
+npm run server
+
+npm start
